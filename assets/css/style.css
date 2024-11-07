@@ -556,8 +556,6 @@ img {
   justify-content: space-between;
 }
 
-
-
 .main-header .header-upper .logo-box {
   z-index: 10;
 }
@@ -4702,4 +4700,116 @@ img {
 .consult-widget .phone a {
   color: #fff;
   transition: 0.5s;
+}
+
+.quote-form {
+  background: #f9f8f7;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.quote-form h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #181614;
+  text-transform: uppercase;
+}
+
+.quote-form .form-group {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.quote-form label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #181614;
+}
+
+.quote-form input[type='text'],
+.quote-form input[type='email'],
+.quote-form select,
+.quote-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #eae1da;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 16px;
+  color: #797672;
+  transition: all 0.3s ease;
+}
+
+.quote-form input[type='text']:focus,
+.quote-form input[type='email']:focus,
+.quote-form select:focus,
+.quote-form textarea:focus {
+  border-color: #ce9233;
+  box-shadow: 0 0 0 3px rgba(206, 146, 51, 0.1);
+  outline: none;
+}
+
+.quote-form select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23797672' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 15px;
+  padding-right: 45px;
+}
+
+.quote-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.quote-form .theme-btn {
+  width: 100%;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  background: #ce9233;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.quote-form .theme-btn:hover {
+  background: #b17b28;
+  transform: translateY(-1px);
+}
+
+.quote-form .theme-btn:active {
+  transform: translateY(0);
+}
+
+/* Error states */
+.quote-form input:invalid:focus,
+.quote-form textarea:invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
+}
+
+/* Placeholder styling */
+.quote-form ::placeholder {
+  color: #a8a5a2;
+  opacity: 0.7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .quote-form {
+    padding: 25px;
+  }
+
+  .quote-form h3 {
+    font-size: 24px;
+  }
 }
