@@ -72,11 +72,13 @@
                 <ul class="contact-info">
                   <li>
                     <a href="mailto:needhelp@company.com"
-                      ><i class="flaticon-email-1"></i>contact@ferragreen.com</a>
+                      ><i class="flaticon-email-1"></i>contact@ferragreen.com</a
+                    >
                   </li>
                   <li>
                     <a href="tel:928886660000"
-                      ><i class="flaticon-telephone"></i>+216 29 394 085</a>
+                      ><i class="flaticon-telephone"></i>+216 29 394 085</a
+                    >
                   </li>
                   <li><i class="flaticon-pin"></i>Tunisia , Tunis</li>
                 </ul>
@@ -156,30 +158,39 @@
                           <a href="contact.html" data-i18n="menu.contact"></a>
                         </li>
                         <!-- language selector  -->
-                        <li>
-                          <div class="language-switcher">
-                            <!-- Circular button showing current language flag (English by default) -->
-                            <button class="lang-btn" onclick="toggleDropdown()">
+                        <li class="language-switcher">
+                          <button
+                            class="lang-btn"
+                            onclick="toggleDropdown()"
+                            aria-label="Language Selection"
+                          >
+                            <span class="flag-icon flag-icon-gb"></span>
+                          </button>
+                          <div class="lang-dropdown" id="langDropdown">
+                            <button
+                              onclick="changeLanguage('en')"
+                              class="lang-option"
+                              data-lang="en"
+                            >
                               <span class="flag-icon flag-icon-gb"></span>
-                              <!-- Flag for English -->
+                              <span data-i18n="languages.english">English</span>
                             </button>
-
-                            <!-- Dropdown menu with language options -->
-                            <div class="lang-dropdown" id="langDropdown">
-                              <button onclick="changeLanguage('en')">
-                                <span class="flag-icon flag-icon-gb"></span>
-                                English
-                              </button>
-                              <button onclick="changeLanguage('fr')">
-                                <span class="flag-icon flag-icon-fr"></span>
-                                Français
-                              </button>
-                              <button onclick="changeLanguage('ar')">
-                                <span class="flag-icon flag-icon-sa"></span>
-                                Arabic
-                              </button>
-                              <!-- Add more languages as needed -->
-                            </div>
+                            <button
+                              onclick="changeLanguage('fr')"
+                              class="lang-option"
+                              data-lang="fr"
+                            >
+                              <span class="flag-icon flag-icon-fr"></span>
+                              <span data-i18n="languages.french">Français</span>
+                            </button>
+                            <button
+                              onclick="changeLanguage('ar')"
+                              class="lang-option"
+                              data-lang="ar"
+                            >
+                              <span class="flag-icon flag-icon-sa"></span>
+                              <span data-i18n="languages.arabic">العربية</span>
+                            </button>
                           </div>
                         </li>
                       </ul>
@@ -330,24 +341,36 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="text-center mb-4">
-                          <i class="fas fa-recycle" style="font-size: 120px; color: #ce9233;"></i>
+                          <i
+                            class="fas fa-recycle"
+                            style="font-size: 120px; color: #ce9233"
+                          ></i>
                           <div class="mt-2">Metal Processing</div>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="text-center mb-4">
-                          <i class="fas fa-industry" style="font-size: 120px; color: #ce9233;"></i>
+                          <i
+                            class="fas fa-industry"
+                            style="font-size: 120px; color: #ce9233"
+                          ></i>
                           <div class="mt-2">Recycling Facility</div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <h2 data-i18n="services.metalRecycling.title">Metal Recycling Services</h2>
+                  <h2 data-i18n="services.metalRecycling.title">
+                    Metal Recycling Services
+                  </h2>
 
                   <div class="text-block">
                     <p data-i18n="services.metalRecycling.description">
-                      Ferragreen leads the industry in sustainable metal recycling solutions. Our state-of-the-art facilities and expert team ensure efficient processing of all types of metals, contributing to a circular economy while maintaining the highest environmental standards.
+                      Ferragreen leads the industry in sustainable metal
+                      recycling solutions. Our state-of-the-art facilities and
+                      expert team ensure efficient processing of all types of
+                      metals, contributing to a circular economy while
+                      maintaining the highest environmental standards.
                     </p>
                   </div>
                 </div>
@@ -361,7 +384,9 @@
                         <div class="process-step">
                           <div class="step-number">01</div>
                           <h4>Collection</h4>
-                          <p>Efficient collection and sorting of metal materials</p>
+                          <p>
+                            Efficient collection and sorting of metal materials
+                          </p>
                         </div>
                       </div>
                       <div class="col-md-3">
@@ -440,14 +465,19 @@
                       <div class="feature-box">
                         <i class="fas fa-leaf"></i>
                         <h4>Environmentally Friendly</h4>
-                        <p>Sustainable recycling practices that protect our environment</p>
+                        <p>
+                          Sustainable recycling practices that protect our
+                          environment
+                        </p>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="feature-box">
                         <i class="fas fa-cogs"></i>
                         <h4>Advanced Technology</h4>
-                        <p>State-of-the-art recycling equipment and processes</p>
+                        <p>
+                          State-of-the-art recycling equipment and processes
+                        </p>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -471,7 +501,10 @@
                 <div class="compliance-section mt-5">
                   <h3>Environmental Standards & Compliance</h3>
                   <div class="compliance-content">
-                    <p>Our recycling operations adhere to the highest environmental and industry standards:</p>
+                    <p>
+                      Our recycling operations adhere to the highest
+                      environmental and industry standards:
+                    </p>
                     <ul class="compliance-list">
                       <li>ISO 14001 Environmental Management</li>
                       <li>Local Environmental Regulations</li>
@@ -501,15 +534,26 @@
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <label data-i18n="quoteForm.serviceType">Service Type</label>
+                          <label data-i18n="quoteForm.serviceType"
+                            >Service Type</label
+                          >
                           <select name="form_subject" required>
-                            <option value="Metal Recycling Quote Request" data-i18n="quoteForm.metalRecycling">
+                            <option
+                              value="Metal Recycling Quote Request"
+                              data-i18n="quoteForm.metalRecycling"
+                            >
                               Metal Recycling
                             </option>
-                            <option value="Scrap Collection Quote Request" data-i18n="quoteForm.scrapCollection">
+                            <option
+                              value="Scrap Collection Quote Request"
+                              data-i18n="quoteForm.scrapCollection"
+                            >
                               Scrap Collection
                             </option>
-                            <option value="Export Services Quote Request" data-i18n="quoteForm.exportServices">
+                            <option
+                              value="Export Services Quote Request"
+                              data-i18n="quoteForm.exportServices"
+                            >
                               Export Services
                             </option>
                           </select>
@@ -518,13 +562,29 @@
                       <div class="col-md-12">
                         <div class="form-group">
                           <label data-i18n="quoteForm.message">Message</label>
-                          <textarea name="form_message" rows="4" required></textarea>
+                          <textarea
+                            name="form_message"
+                            rows="4"
+                            required
+                          ></textarea>
                         </div>
                       </div>
                       <div class="col-md-12">
-                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                        <button type="submit" class="theme-btn btn-style-one" data-loading-text="Sending...">
-                          <span data-i18n="quoteForm.submit">Submit Request</span>
+                        <input
+                          id="form_botcheck"
+                          name="form_botcheck"
+                          class="form-control"
+                          type="hidden"
+                          value=""
+                        />
+                        <button
+                          type="submit"
+                          class="theme-btn btn-style-one"
+                          data-loading-text="Sending..."
+                        >
+                          <span data-i18n="quoteForm.submit"
+                            >Submit Request</span
+                          >
                         </button>
                       </div>
                     </div>
@@ -691,65 +751,7 @@
       <span class="flaticon-right-arrow-4"></span>
     </div>
 
-    <style>
-      .language-switcher {
-        position: relative;
-        display: inline-block;
-      }
-
-      /* Circular button for language flag */
-      .lang-btn {
-        background-color: #f1f1f1;
-        border: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .lang-btn .flag-icon {
-        font-size: 24px;
-      }
-
-      /* Dropdown styles */
-      .lang-dropdown {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-        padding: 10px;
-        min-width: 150px;
-        z-index: 1;
-      }
-
-      .lang-dropdown button {
-        background: none;
-        border: none;
-        padding: 10px;
-        width: 100%;
-        text-align: left;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-      }
-
-      .lang-dropdown button:hover {
-        background-color: #ddd;
-      }
-
-      .lang-dropdown .flag-icon {
-        margin-right: 10px;
-      }
-    </style>
-
-    <!-- i18n  -->
-    <script src="https://unpkg.com/i18next@21.6.10/dist/umd/i18next.min.js"></script>
-    <script src="https://unpkg.com/i18next-http-backend@1.4.3/i18nextHttpBackend.min.js"></script>
-    <script src="https://unpkg.com/jquery-i18next@1.2.2/dist/umd/jquery-i18next.min.js"></script>
-
+    <!-- Core Scripts -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -767,126 +769,13 @@
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/parallax-scroll.js"></script>
 
+    <!-- i18n dependencies -->
+    <script src="https://unpkg.com/i18next@21.6.10/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@1.4.3/i18nextHttpBackend.min.js"></script>
+    <script src="https://unpkg.com/jquery-i18next@1.2.2/dist/umd/jquery-i18next.min.js"></script>
+
+    <!-- Custom Scripts -->
     <script src="assets/js/script.js"></script>
-
-    <script>
-      function toggleDropdown() {
-        const dropdown = document.getElementById('langDropdown');
-        dropdown.style.display =
-          dropdown.style.display === 'block' ? 'none' : 'block';
-      }
-
-      // Initialize i18next
-      i18next.use(i18nextHttpBackend).init(
-        {
-          lng: 'en', // Default language
-          fallbackLng: 'en',
-          debug: true,
-          backend: {
-            loadPath: '/locales/{{lng}}/translation.json', // Path to your translation files
-          },
-        },
-        function (err, t) {
-          // Once i18next is initialized, update the translations
-          updateContent();
-        }
-      );
-
-      // Function to update content based on the data-i18n attributes
-      function updateContent() {
-        document.querySelectorAll('[data-i18n]').forEach(function (element) {
-          const key = element.getAttribute('data-i18n');
-          element.innerHTML = i18next.t(key);
-        });
-      }
-
-      // Language switcher function
-      function changeLanguage(lang) {
-        i18next.changeLanguage(lang, function (err, t) {
-          if (err) return console.log('something went wrong loading', err);
-          updateContent(); // Update content when the language changes
-        });
-      }
-    </script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const form = document.getElementById('quoteForm');
-      if(form) {
-        form.addEventListener('submit', function(e) {
-          e.preventDefault();
-          
-          const submitButton = form.querySelector('button[type="submit"]');
-          const originalButtonText = submitButton.innerHTML;
-          
-          // Show loading state
-          submitButton.innerHTML = submitButton.getAttribute('data-loading-text');
-          submitButton.disabled = true;
-
-          // Create FormData object
-          const formData = new FormData(form);
-
-          // Send form data
-          fetch('assets/inc/send_email.php', {
-            method: 'POST',
-            body: formData
-          })
-          .then(response => response.text())
-          .then(response => {
-            try {
-              return JSON.parse(response);
-            } catch (e) {
-              throw new Error('Invalid JSON response from server');
-            }
-          })
-          .then(data => {
-            // Create alert element
-            const alertDiv = document.createElement('div');
-            alertDiv.style.marginTop = '20px';
-            alertDiv.style.padding = '15px';
-            alertDiv.style.borderRadius = '4px';
-            
-            if (data.status === 'success') {
-              alertDiv.style.backgroundColor = '#d4edda';
-              alertDiv.style.color = '#155724';
-              form.reset();
-            } else {
-              alertDiv.style.backgroundColor = '#f8d7da';
-              alertDiv.style.color = '#721c24';
-            }
-            
-            alertDiv.innerHTML = data.message;
-            form.appendChild(alertDiv);
-            
-            // Remove alert after 5 seconds
-            setTimeout(() => {
-              alertDiv.remove();
-            }, 5000);
-          })
-          .catch(error => {
-            console.error('Error:', error);
-            // Show error message to user
-            const alertDiv = document.createElement('div');
-            alertDiv.style.marginTop = '20px';
-            alertDiv.style.padding = '15px';
-            alertDiv.style.borderRadius = '4px';
-            alertDiv.style.backgroundColor = '#f8d7da';
-            alertDiv.style.color = '#721c24';
-            alertDiv.innerHTML = 'An error occurred while sending your message. Please try again later.';
-            form.appendChild(alertDiv);
-            
-            setTimeout(() => {
-              alertDiv.remove();
-            }, 5000);
-          })
-          .finally(() => {
-            // Restore button state
-            submitButton.innerHTML = originalButtonText;
-            submitButton.disabled = false;
-          });
-        });
-      }
-    });
-  </script>
+    <script src="assets/js/i18n-config.js"></script>
   </body>
 </html>

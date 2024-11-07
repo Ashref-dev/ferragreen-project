@@ -1,4 +1,9 @@
 {
+  "languages": {
+    "english": "Anglais",
+    "french": "Français",
+    "arabic": "Arabe"
+  },
   "button": {
     "plus" : "En savoir plus"
   },

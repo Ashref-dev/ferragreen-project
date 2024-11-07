@@ -72,13 +72,11 @@
                 <ul class="contact-info">
                   <li>
                     <a href="mailto:needhelp@company.com"
-                      ><i class="flaticon-email-1"></i>contact@ferragreen.com</a
-                    >
+                      ><i class="flaticon-email-1"></i>contact@ferragreen.com</a>
                   </li>
                   <li>
                     <a href="tel:928886660000"
-                      ><i class="flaticon-telephone"></i>+216 29 394 085</a
-                    >
+                      ><i class="flaticon-telephone"></i>+216 29 394 085</a>
                   </li>
                   <li><i class="flaticon-pin"></i>Tunisia , Tunis</li>
                 </ul>
@@ -921,44 +919,6 @@
 
     <script src="assets/js/script.js"></script>
 
-    <script>
-      function toggleDropdown() {
-        const dropdown = document.getElementById('langDropdown');
-        dropdown.style.display =
-          dropdown.style.display === 'block' ? 'none' : 'block';
-      }
-
-      // Initialize i18next
-      i18next.use(i18nextHttpBackend).init(
-        {
-          lng: 'en', // Default language
-          fallbackLng: 'en',
-          debug: true,
-          backend: {
-            loadPath: '/locales/{{lng}}/translation.json', // Path to your translation files
-          },
-        },
-        function (err, t) {
-          // Once i18next is initialized, update the translations
-          updateContent();
-        }
-      );
-
-      // Function to update content based on the data-i18n attributes
-      function updateContent() {
-        document.querySelectorAll('[data-i18n]').forEach(function (element) {
-          const key = element.getAttribute('data-i18n');
-          element.innerHTML = i18next.t(key);
-        });
-      }
-
-      // Language switcher function
-      function changeLanguage(lang) {
-        i18next.changeLanguage(lang, function (err, t) {
-          if (err) return console.log('something went wrong loading', err);
-          updateContent(); // Update content when the language changes
-        });
-      }
-    </script>
+    <script src="assets/js/i18n-config.js"></script>
   </body>
 </html>

@@ -72,13 +72,11 @@
                 <ul class="contact-info">
                   <li>
                     <a href="mailto:needhelp@company.com"
-                      ><i class="flaticon-email-1"></i>contact@ferragreen.com</a
-                    >
+                      ><i class="flaticon-email-1"></i>contact@ferragreen.com</a>
                   </li>
                   <li>
                     <a href="tel:928886660000"
-                      ><i class="flaticon-telephone"></i>+216 29 394 085</a
-                    >
+                      ><i class="flaticon-telephone"></i>+216 29 394 085</a>
                   </li>
                   <li><i class="flaticon-pin"></i>Tunisia , Tunis</li>
                 </ul>
@@ -156,30 +154,39 @@
                           <a href="contact.html" data-i18n="menu.contact"></a>
                         </li>
                         <!-- language selector  -->
-                        <li>
-                          <div class="language-switcher">
-                            <!-- Circular button showing current language flag (English by default) -->
-                            <button class="lang-btn" onclick="toggleDropdown()">
+                        <li class="language-switcher">
+                          <button
+                            class="lang-btn"
+                            onclick="toggleDropdown()"
+                            aria-label="Language Selection"
+                          >
+                            <span class="flag-icon flag-icon-gb"></span>
+                          </button>
+                          <div class="lang-dropdown" id="langDropdown">
+                            <button
+                              onclick="changeLanguage('en')"
+                              class="lang-option"
+                              data-lang="en"
+                            >
                               <span class="flag-icon flag-icon-gb"></span>
-                              <!-- Flag for English -->
+                              <span data-i18n="languages.english">English</span>
                             </button>
-
-                            <!-- Dropdown menu with language options -->
-                            <div class="lang-dropdown" id="langDropdown">
-                              <button onclick="changeLanguage('en')">
-                                <span class="flag-icon flag-icon-gb"></span>
-                                English
-                              </button>
-                              <button onclick="changeLanguage('fr')">
-                                <span class="flag-icon flag-icon-fr"></span>
-                                Français
-                              </button>
-                              <button onclick="changeLanguage('ar')">
-                                <span class="flag-icon flag-icon-sa"></span>
-                                Arabic
-                              </button>
-                              <!-- Add more languages as needed -->
-                            </div>
+                            <button
+                              onclick="changeLanguage('fr')"
+                              class="lang-option"
+                              data-lang="fr"
+                            >
+                              <span class="flag-icon flag-icon-fr"></span>
+                              <span data-i18n="languages.french">Français</span>
+                            </button>
+                            <button
+                              onclick="changeLanguage('ar')"
+                              class="lang-option"
+                              data-lang="ar"
+                            >
+                              <span class="flag-icon flag-icon-sa"></span>
+                              <span data-i18n="languages.arabic">العربية</span>
+                            </button>
                           </div>
                         </li>
                       </ul>
@@ -714,8 +721,7 @@
                       </div>
                       <div class="text">
                         <a href="mailto:needhelp@company.com"
-                          >needhelp@company.com</a
-                        >
+                          >needhelp@company.com</a>
                       </div>
                     </div>
                     <div class="icon-box">
@@ -763,74 +769,7 @@
       <span class="flaticon-right-arrow-4"></span>
     </div>
 
-    <style>
-      .language-switcher {
-        position: relative;
-        display: inline-block;
-      }
-
-      /* Circular button for language flag */
-      .lang-btn {
-        background-color: #f1f1f1;
-        border: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .lang-btn .flag-icon {
-        font-size: 24px;
-      }
-
-      /* Dropdown styles */
-      .lang-dropdown {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-        padding: 10px;
-        min-width: 150px;
-        z-index: 1;
-      }
-
-      .lang-dropdown button {
-        background: none;
-        border: none;
-        padding: 10px;
-        width: 100%;
-        text-align: left;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-      }
-
-      .lang-dropdown button:hover {
-        background-color: #ddd;
-      }
-
-      .lang-dropdown .flag-icon {
-        margin-right: 10px;
-      }
-
-      /* Process Steps */
-      .process-step {
-        text-align: center;
-        padding: 25px 15px;
-        background: #fff;
-        border-radius: 8px;
-        box-shadow: 0;
-      }
-    </style>
-
-    <!-- i18n  -->
-    <script src="https://unpkg.com/i18next@21.6.10/dist/umd/i18next.min.js"></script>
-    <script src="https://unpkg.com/i18next-http-backend@1.4.3/i18nextHttpBackend.min.js"></script>
-    <script src="https://unpkg.com/jquery-i18next@1.2.2/dist/umd/jquery-i18next.min.js"></script>
-
+    <!-- Core Scripts -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -848,48 +787,16 @@
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/parallax-scroll.js"></script>
 
+    <!-- i18n dependencies -->
+    <script src="https://unpkg.com/i18next@21.6.10/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@1.4.3/i18nextHttpBackend.min.js"></script>
+    <script src="https://unpkg.com/jquery-i18next@1.2.2/dist/umd/jquery-i18next.min.js"></script>
+
+    <!-- Custom Scripts -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/i18n-config.js"></script>
 
-    <script>
-      function toggleDropdown() {
-        const dropdown = document.getElementById('langDropdown');
-        dropdown.style.display =
-          dropdown.style.display === 'block' ? 'none' : 'block';
-      }
-
-      // Initialize i18next
-      i18next.use(i18nextHttpBackend).init(
-        {
-          lng: 'en', // Default language
-          fallbackLng: 'en',
-          debug: true,
-          backend: {
-            loadPath: '/locales/{{lng}}/translation.json', // Path to your translation files
-          },
-        },
-        function (err, t) {
-          // Once i18next is initialized, update the translations
-          updateContent();
-        }
-      );
-
-      // Function to update content based on the data-i18n attributes
-      function updateContent() {
-        document.querySelectorAll('[data-i18n]').forEach(function (element) {
-          const key = element.getAttribute('data-i18n');
-          element.innerHTML = i18next.t(key);
-        });
-      }
-
-      // Language switcher function
-      function changeLanguage(lang) {
-        i18next.changeLanguage(lang, function (err, t) {
-          if (err) return console.log('something went wrong loading', err);
-          updateContent(); // Update content when the language changes
-        });
-      }
-    </script>
-
+    <!-- Form handling script -->
     <script>
       document.addEventListener('DOMContentLoaded', function () {
         const form = document.getElementById('quoteForm');
