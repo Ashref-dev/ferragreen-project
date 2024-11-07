@@ -1,5 +1,196 @@
 {
-  "hero": {
-    "title": "Best metal works in Tunisia"
-  }
+  "button": {
+    "plus": "Learn More"
+  },
+  "Banner": {
+    "banner1": "Leading the Way in Metal Recycling",
+    "banner2": "Sustainable Solutions for a Greener Future",
+    "banner3": "Your Trusted Partner in Recycling"
+  },
+  "Welcome": {
+    "welcome": "Welcome to Ferragreen",
+    "commitment": "We’re committed to quality",
+    "description": "At Ferragreen, we breathe new life into ferrous and non-ferrous metals through sustainable, environmentally friendly solutions. Our expertise in recycling and exporting ensures top-quality services while contributing to a greener future.",
+    "service1": "24/7 service: Always available to meet your needs.",
+    "service2": "Deadline adherence: We always meet our time commitments.",
+    "service3": "Upfront pricing: Clear and competitive pricing.",
+    "service4": "Latest technology: Using advanced technologies in metal recycling.",
+    "closing": "Your trusted partner for a sustainable future."
+  },
+  "cta": {
+      "heading": "Looking for reliable and eco-friendly recycling solutions?",
+      "button": "Contact Us"
+    },
+    "services": {
+   
+        "heading": "Our Services",
+        "subheading": "What we offer",
+        "services_list": {
+          "steel_welding": {
+            "title": "Metal Recycling",
+            "description": "We specialize in the efficient recycling of ferrous and non-ferrous metals, ensuring sustainability and environmental protection.",
+            "button": "Read More"
+          },
+          "metal_works": {
+            "title": "Scrap Collection",
+            "description": "We provide professional scrap metal collection services for industrial and commercial clients, adhering to international standards.",
+            "button": "Read More"
+          },
+          "pipe_welding": {
+            "title": "Export Services",
+            "description": "Our metal export services ensure that high-quality recycled materials reach global markets with complete logistical support.",
+            "button": "Read More"
+          }
+        },
+        "scrapCollection": {
+            "title": "Scrap Collection",
+            "description": "We provide efficient scrap metal collection services to support sustainable recycling and waste reduction efforts."
+        },
+        "metalRecycling": {
+            "title": "Metal Recycling",
+            "description": "Our recycling process converts scrap metal into reusable materials, reducing environmental impact and conserving resources.",
+            "button" :"Read More",
+            "benefitsTitle": "Benefits of Metal Recycling",
+            "benefitsDescription": "Our metal recycling services help conserve resources, reduce greenhouse gas emissions, and promote sustainable production.",
+            "accordion1": {
+                "title": "Why Choose Ferragreen for Metal Recycling?",
+                "content": "Ferragreen is dedicated to efficient, eco-friendly metal recycling solutions that prioritize sustainability and quality."
+            },
+            "accordion2": {
+                "title": "Comprehensive Recycling Process",
+                "content": "We use advanced techniques to ensure thorough recycling, minimizing waste and maximizing resource recovery."
+            }
+        },
+        "wasteManagement": {
+            "title": "Waste Management Solutions",
+            "description": "We offer comprehensive waste management services, focusing on eco-friendly methods to reduce and recycle industrial waste."
+        },
+        "readMore": "Read More",
+        "exportServices": {
+          "title": "Export Services",
+          "description": "Ferragreen provides comprehensive export services for recycled metal materials, ensuring efficient and reliable international shipping to meet client needs worldwide.",
+          "benefitsTitle": "Benefits of Export Services",
+          "benefitsDescription": "Our export services are designed to ensure secure, timely, and cost-effective delivery, providing clients with global access to quality recycled materials.",
+          "accordion1": {
+              "title": "Why Choose Ferragreen for Export Services?",
+              "content": "Ferragreen specializes in reliable, eco-friendly export solutions tailored to international standards, ensuring safe and sustainable shipments."
+          },
+          "accordion2": {
+              "title": "Efficient International Logistics",
+              "content": "Our expertise in international logistics ensures a streamlined export process, reducing transit times and optimizing delivery."
+          }
+      }
+      
+      },
+      "quoteForm": {
+        "title": "Request a Quote",
+        "name": "Your Name",
+        "email": "Email",
+        "serviceType": "Service Type",
+        "metalRecycling": "Metal Recycling",
+        "scrapCollection": "Scrap Collection",
+        "exportServices": "Export Services",
+        "message": "Message",
+        "submit": "Submit Request"
+    },
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "environment": "Environment",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "footer" : {
+    "desc":"At Ferragreen, we breathe new life into ferrous and non-ferrous metals through sustainable, environmentally friendly solutions. Our expertise in recycling and exporting ensures top-quality services while contributing to a greener future."
+  },
+ "contact": {
+        "subtitle": "Contact for help",
+        "heading": "Get in touch with us",
+        "description": "At Ferragreen, we are committed to providing excellent customer service. If you have any questions, feel free to reach out to us via phone or email, or visit our office.",
+        "phone_label": "Call Anytime",
+        "email_label": "Write email",
+        "address_label": "Visit Office",
+        "address": "Industrial Zone, Borj Cedria, Tunisia",
+        "form_subtitle": "Contact with us",
+        "form_heading": "Drop a message",
+        "fields": {
+            "name": "Full Name",
+            "email": "Email Address",
+            "phone": "Phone Number",
+            "subject": "Subject",
+            "message": "Write Message"
+        },
+        "form_submit": "Send Message"
+    },
+   "team": {
+    "subTitle": "Our Team",
+    "title": "Know our team",
+    "members": {
+      "ceo": {
+        "name": "Nizar Zedini",
+        "title": "CEO"
+      }
+    }
+  },
+  "welcome": {
+      "yearsExperience": "+5 Years of Experience",
+      "subtitle": "Welcome to Ferragreen",
+      "qualityCommitment": "Committed to Environmental Quality",
+      "description": "Ferragreen is dedicated to sustainable metal recycling, minimizing waste, and preserving resources.",
+      "benefit24hService": "24/7 Service",
+      "benefitEcoFriendly": "Eco-Friendly Process",
+      "benefitCompetitivePricing": "Competitive Pricing",
+      "benefitModernTechnology": "Latest Recycling Technology",
+      "skillScrapCollection": "Scrap Collection",
+      "skillMetalRecycling": "Metal Recycling",
+      "skillExportStandards": "Export Standards"
+    },
+    "facts": {
+      "subtitle": "Our Environmental Impact",
+      "heading": "Imagine it, We can Recycle it",
+      "description": "Ferragreen is proud of our journey in recycling metals and promoting sustainability, helping to reduce waste and conserve natural resources.",
+      "projectsCompleted": "Projects Completed",
+      "satisfiedClients": "Satisfied Clients",
+      "metalRecycled": "Tons of Metal Recycled"
+    },
+    "servicesScrap": {
+        "title": "Scrap Collection",
+        "description1": "Ferragreen specializes in the efficient collection of scrap metal, ensuring environmentally-friendly handling and processing.",
+        "description2": "Our commitment to sustainability drives us to collect and repurpose metal waste, reducing the impact on our planet while providing valuable resources for industry.",
+        "benefitsTitle": "Benefits of Scrap Collection",
+        "benefitsDescription": "Our scrap collection services reduce waste, conserve natural resources, and contribute to a circular economy.",
+        "benefit1": "Eco-Friendly Process",
+        "benefit2": "Efficient Collection",
+        "accordion1": {
+            "title": "Comprehensive Scrap Metal Solutions",
+            "content": "We handle scrap metal with expertise, ensuring sustainable disposal and repurposing."
+        },
+        "accordion2": {
+            "title": "Eco-Conscious and Efficient",
+            "content": "Our process minimizes environmental impact, aligning with our sustainability goals."
+        },
+        "accordion3": {
+            "title": "Flexible Collection Options",
+            "content": "We offer flexible scrap collection schedules to suit the needs of our clients."
+        },
+        "contactPrompt": "Contact us for any project inquiries"
+    },
+    "blog": {
+      "author": "Admin",
+      "comments": "Comments",
+      "date1": "20 Oct, 2024",
+      "title1": "The Importance of Recycling for a Greener Planet",
+      "content1": "Recycling reduces waste, saves energy, and helps preserve our environment for future generations. By reusing materials, we can significantly reduce the need for new raw materials, helping to conserve natural resources.",
+      "content11":"Recycling is crucial for reducing our environmental impact, as it conserves natural resources, saves energy, reduces greenhouse gas emissions, and lessens landfill waste. By reusing materials like paper, plastic, and metals, we minimize the need for raw material extraction, which protects ecosystems and reduces the pollution associated with mining and deforestation. Recycling also uses significantly less energy than producing new materials, directly lowering carbon emissions. It prevents landfills from growing, which in turn reduces soil and water contamination. Additionally, recycling generates jobs, promotes economic growth, and fosters environmental awareness, making it a key step toward a greener, more sustainable planet.",
+      "date2": "18 Oct, 2024",
+      "title2": "How Scrap Metal Recycling Supports the Circular Economy",
+      "content2": "By recycling scrap metal, we reduce the demand for mining and raw material extraction. This not only protects the environment but also supports a sustainable economy by keeping resources in circulation.",
+      "content22":"Scrap metal recycling plays a crucial role in supporting the circular economy by transforming waste into reusable resources. By collecting, processing, and repurposing metals, recycling reduces the need for extracting raw materials, which helps to preserve natural resources and lower energy consumption. This cycle reduces greenhouse gas emissions and minimizes landfill waste, making recycling a sustainable solution. Through scrap metal recycling, industries can continuously reuse materials, promoting a closed-loop system that supports both economic growth and environmental protection.",
+      "date3": "15 Oct, 2024",
+      "title3": "Reducing Environmental Footprint Through Recycling",
+      "content3": "Recycling helps lower pollution and reduce the carbon footprint of waste disposal. By reusing materials, we can make a positive impact on the environment, one recycled item at a time.",
+      "content33":"Reducing our environmental footprint through recycling is a powerful way to protect the planet. By reusing materials like plastics, metals, and paper, we significantly lower the need for resource extraction, which often harms ecosystems and biodiversity. Recycling also reduces energy consumption compared to producing new materials from raw resources, directly cutting greenhouse gas emissions and helping to combat climate change. Beyond these benefits, recycling limits landfill waste, decreasing soil and water pollution. This simple act supports sustainability, reduces pollution, and conserves our planet’s precious resources for future generations."
+    }
 }

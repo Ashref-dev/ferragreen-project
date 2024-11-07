@@ -1,5 +1,196 @@
 {
-  "hero": {
-    "title": "Le meilleur metal en tunisie"
-  }
+  "button": {
+    "plus" : "En savoir plus"
+  },
+  "Banner": {
+    "banner1": "À la pointe du recyclage des métaux" ,
+    "banner2": "Solutions durables pour un avenir plus vert",
+    "banner3":  "Votre partenaire de confiance en recyclage"
+
+  },
+  "Welcome": {
+    "welcome": "Bienvenue chez Ferragreen",
+    "commitment": "Nous sommes engagés pour la qualité",
+    "description": "Chez Ferragreen, nous transformons et donnons une nouvelle vie aux métaux ferreux et non ferreux grâce à des solutions durables et respectueuses de l'environnement. Notre expertise dans le recyclage et l'exportation vous assure des services de qualité tout en contribuant à un avenir plus vert.",
+    "service1": "Service 24/7 : Disponibilité continue pour répondre à vos besoins.",
+    "service2": "Respect des délais : Nous honorons toujours nos engagements temporels.",
+    "service3": "Transparence tarifaire : Des prix clairs et compétitifs.",
+    "service4": "Technologies modernes : Nous utilisons les technologies les plus avancées dans le recyclage des métaux.",
+    "closing": "Votre partenaire de confiance pour un avenir durable."
+  },
+  "cta": {
+      "heading": "Vous cherchez des solutions de recyclage fiables et écologiques?",
+      "button": "Contactez-nous"
+
+    },
+    "services" : {
+      "heading": "Nos Services",
+      "subheading": "Ce que nous offrons",
+      "services_list": {
+        "steel_welding": {
+          "title": "Recyclage des Métaux",
+          "description": "Nous sommes spécialisés dans le recyclage efficace des métaux ferreux et non-ferreux, garantissant durabilité et protection de l’environnement.",
+          "button": "En savoir plus"
+        },
+        "metal_works": {
+          "title": "Collecte de Ferraille",
+          "description": "Nous offrons des services professionnels de collecte de ferraille pour les clients industriels et commerciaux, en respectant les normes internationales.",
+          "button": "En savoir plus"
+        },
+        "pipe_welding": {
+          "title": "Services d’Exportation",
+          "description": "Nos services d'exportation de métaux assurent que des matériaux recyclés de haute qualité atteignent les marchés mondiaux avec un support logistique complet.",
+          "button": "En savoir plus"
+        }
+      },
+      "scrapCollection": {
+        "title": "Collecte de Ferraille",
+        "description": "Nous offrons des services de collecte de ferraille efficaces pour soutenir le recyclage durable et réduire les déchets."
+    },
+    "metalRecycling": {
+        "title": "Recyclage des Métaux",
+        "description": "Notre processus de recyclage transforme la ferraille en matériaux réutilisables, réduisant l'impact environnemental et conservant les ressources.",
+        "benefitsTitle": "Avantages du Recyclage des Métaux",
+            "benefitsDescription": "Nos services de recyclage des métaux aident à conserver les ressources, réduire les émissions de gaz à effet de serre et promouvoir une production durable.",
+            "accordion1": {
+                "title": "Pourquoi Choisir Ferragreen pour le Recyclage des Métaux ?",
+                "content": "Ferragreen est dédié à des solutions de recyclage des métaux efficaces et respectueuses de l'environnement, qui priorisent la durabilité et la qualité."
+            },
+            "accordion2": {
+                "title": "Processus de Recyclage Complet",
+                "content": "Nous utilisons des techniques avancées pour garantir un recyclage complet, minimisant les déchets et maximisant la récupération des ressources."
+            }
+    },
+    "wasteManagement": {
+        "title": "Solutions de Gestion des Déchets",
+        "description": "Nous offrons des services complets de gestion des déchets, axés sur des méthodes écologiques pour réduire et recycler les déchets industriels."
+    },
+    "readMore": "En savoir plus",
+    "contactPrompt": "Contactez-nous pour toute demande de projet",
+    "exportServices": {
+            "title": "Services d'Exportation",
+            "description": "Ferragreen fournit des services d'exportation complets pour les matériaux métalliques recyclés, garantissant des expéditions internationales efficaces et fiables pour répondre aux besoins de ses clients à travers le monde.",
+            "benefitsTitle": "Avantages des Services d'Exportation",
+            "benefitsDescription": "Nos services d'exportation assurent une livraison sécurisée, rapide et économique, offrant à nos clients un accès mondial à des matériaux recyclés de qualité.",
+            "accordion1": {
+                "title": "Pourquoi choisir Ferragreen pour les Services d'Exportation?",
+                "content": "Ferragreen se spécialise dans des solutions d'exportation fiables et respectueuses de l'environnement, adaptées aux normes internationales pour garantir des envois sûrs et durables."
+            },
+            "accordion2": {
+                "title": "Logistique Internationale Efficace",
+                "content": "Notre expertise en logistique internationale assure un processus d'exportation simplifié, réduisant les délais de transit et optimisant la livraison."
+            }
+        }
+
+    },
+    "quoteForm": {
+        "title": "Demander un Devis",
+        "name": "Votre Nom",
+        "email": "Email",
+        "serviceType": "Type de Service",
+        "metalRecycling": "Recyclage des Métaux",
+        "scrapCollection": "Collecte de Déchets Métalliques",
+        "exportServices": "Services d'Exportation",
+        "message": "Message",
+        "submit": "Envoyer la Demande"
+    },
+  "menu": {
+    "home": "Page d’accueil",
+    "about": "À propos",
+    "services": "Services",
+    "environment": "Environnement",
+    "pricing": "Nos tarifs",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "footer" : {
+    "desc":"Chez Ferragreen, nous transformons et donnons une nouvelle vie aux métaux ferreux et non ferreux grâce à des solutions durables et respectueuses de l'environnement. Notre expertise dans le recyclage et l'exportation vous assure des services de qualité tout en contribuant à un avenir plus vert."
+  },
+  "contact": {
+        "subtitle": "Contactez pour de l'aide",
+        "heading": "Prenez contact avec nous",
+        "description": "Chez Ferragreen, nous nous engageons à offrir un excellent service client. Si vous avez des questions, n'hésitez pas à nous contacter par téléphone ou par email, ou à visiter notre bureau.",
+        "phone_label": "Appelez à tout moment",
+        "email_label": "Écrire un email",
+        "address_label": "Visitez le bureau",
+        "address": "Zone Industrielle, Borj Cedria, Tunisie",
+        "form_subtitle": "Contactez-nous",
+        "form_heading": "Envoyez un message",
+        "fields": {
+            "name": "Nom complet",
+            "email": "Adresse e-mail",
+            "phone": "Numéro de téléphone",
+            "subject": "Sujet",
+            "message": "Écrire un message"
+        },
+        "form_submit": "Envoyer le message"
+    },
+    "team": {
+      "subTitle": "Notre équipe",
+      "title": "Rencontrez notre équipe",
+      "members": {
+        "ceo": {
+          "name": "Nizar Zedini",
+          "title": "PDG"
+        }
+      }
+    },
+    "welcome": {
+      "yearsExperience": "+5 ans d'expérience",
+      "subtitle": "Bienvenue chez Ferragreen",
+      "qualityCommitment": "Engagé pour une qualité environnementale",
+      "description": "Ferragreen est dédiée au recyclage durable des métaux, à la réduction des déchets et à la préservation des ressources.",
+      "benefit24hService": "Service 24/7",
+      "benefitEcoFriendly": "Processus respectueux de l'environnement",
+      "benefitCompetitivePricing": "Tarifs compétitifs",
+      "benefitModernTechnology": "Technologie de recyclage la plus récente",
+      "skillScrapCollection": "Collecte de ferraille",
+      "skillMetalRecycling": "Recyclage des métaux",
+      "skillExportStandards": "Normes d'exportation"
+    },
+    "facts": {
+      "subtitle": "Notre Impact Environnemental",
+      "heading": "Imaginez-le, nous pouvons le recycler",
+      "description": "Ferragreen est fière de notre parcours dans le recyclage des métaux et la promotion de la durabilité, contribuant à réduire les déchets et à préserver les ressources naturelles.",
+      "projectsCompleted": "Projets Terminés",
+      "satisfiedClients": "Clients Satisfaits",
+      "metalRecycled": "Tonnes de Métal Recyclé"
+    },
+    "servicesScrap": {
+        "title": "Collecte de Déchets Métalliques",
+        "description1": "Ferragreen se spécialise dans la collecte efficace de déchets métalliques, assurant un traitement respectueux de l'environnement.",
+        "description2": "Notre engagement envers la durabilité nous pousse à collecter et réutiliser les déchets métalliques, réduisant ainsi notre impact sur la planète tout en fournissant des ressources précieuses à l'industrie.",
+        "benefitsTitle": "Avantages de la Collecte de Déchets",
+        "benefitsDescription": "Nos services de collecte de déchets réduisent les déchets, préservent les ressources naturelles et contribuent à une économie circulaire.",
+        "benefit1": "Processus Écologique",
+        "benefit2": "Collecte Efficace",
+        "accordion1": {
+            "title": "Solutions Complètes pour les Métaux",
+            "content": "Nous traitons les déchets métalliques avec expertise, assurant une élimination durable et une réutilisation."
+        },
+        "accordion2": {
+            "title": "Écologique et Efficace",
+            "content": "Notre processus minimise l'impact environnemental, en alignement avec nos objectifs de durabilité."
+        },
+        "accordion3": {
+            "title": "Options de Collecte Flexibles",
+            "content": "Nous offrons des horaires de collecte flexibles pour répondre aux besoins de nos clients."
+        },
+        "contactPrompt": "Contactez-nous pour toute demande de projet"
+    },
+    "blog": {
+            "author": "Admin",
+            "comments": "Commentaires",
+            "date1": "20 Oct, 2024",
+            "title1": "L'importance du recyclage pour une planète plus verte",
+            "content1": "Le recyclage réduit les déchets, économise l'énergie et aide à préserver notre environnement pour les générations futures. En réutilisant les matériaux, nous pouvons réduire considérablement le besoin de nouvelles matières premières, contribuant ainsi à la conservation des ressources naturelles.",
+            "content11": "Le recyclage est essentiel pour réduire notre impact environnemental, car il permet de conserver les ressources naturelles, d’économiser de l’énergie, de réduire les émissions de gaz à effet de serre et de diminuer les déchets en décharge. En réutilisant des matériaux comme le papier, le plastique et les métaux, nous limitons la nécessité d’extraire de nouvelles ressources, ce qui protège les écosystèmes et réduit la pollution liée à l’exploitation minière et à la déforestation. De plus, le recyclage consomme bien moins d’énergie que la production de nouveaux matériaux, réduisant ainsi directement les émissions de carbone. Il empêche également l’agrandissement des décharges, réduisant par là même la contamination des sols et de l’eau. Enfin, le recyclage crée des emplois, favorise la croissance économique et renforce la sensibilisation environnementale, en faisant un pas essentiel vers une planète plus verte et durable.",            "date2": "18 Oct, 2024",
+            "title2": "Comment le recyclage des métaux contribue à l'économie circulaire",
+            "content2": "En recyclant les métaux, nous réduisons la demande de mines et d'extraction de matières premières. Cela protège non seulement l'environnement mais soutient également une économie durable en maintenant les ressources en circulation.",
+            "content22":"Le recyclage des métaux joue un rôle essentiel dans le soutien de l'économie circulaire en transformant les déchets en ressources réutilisables. En collectant, traitant et réutilisant les métaux, le recyclage réduit le besoin d'extraire de nouvelles matières premières, contribuant ainsi à préserver les ressources naturelles et à diminuer la consommation d'énergie. Ce cycle réduit les émissions de gaz à effet de serre et limite les déchets mis en décharge, faisant du recyclage une solution durable. Grâce au recyclage des métaux, les industries peuvent réutiliser continuellement les matériaux, favorisant un système en boucle fermée qui soutient à la fois la croissance économique et la protection de l'environnement.",
+            "date3": "15 Oct, 2024",
+            "title3": "Réduire l'empreinte écologique grâce au recyclage",
+            "content3": "Le recyclage aide à réduire la pollution et à diminuer l'empreinte carbone de l'élimination des déchets. En réutilisant les matériaux, nous pouvons avoir un impact positif sur l'environnement, un article recyclé à la fois.",
+            "content33":"Réduire notre empreinte environnementale grâce au recyclage est un moyen puissant de protéger la planète. En réutilisant des matériaux comme le plastique, le métal et le papier, nous réduisons considérablement le besoin d'extraction de ressources, qui nuit souvent aux écosystèmes et à la biodiversité. Le recyclage consomme également moins d'énergie que la production de nouveaux matériaux à partir de ressources brutes, ce qui réduit directement les émissions de gaz à effet de serre et aide à lutter contre le changement climatique. En outre, le recyclage limite les déchets dans les décharges, réduisant la pollution des sols et de l'eau. Ce geste simple favorise la durabilité, diminue la pollution et conserve les précieuses ressources de notre planète pour les générations futures."
+        }
 }
