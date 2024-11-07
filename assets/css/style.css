@@ -4813,3 +4813,111 @@ img {
     font-size: 24px;
   }
 }
+
+/* Process Steps */
+.process-step {
+    text-align: center;
+    padding: 25px 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.step-number {
+    width: 40px;
+    height: 40px;
+    background: #ce9233;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin: 0 auto 15px;
+}
+
+.process-step h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #181614;
+}
+
+.process-step p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* Material Categories */
+.material-category {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.material-category h4 {
+    color: #ce9233;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+/* Compliance Section */
+.compliance-list {
+    list-style: none;
+    padding: 0;
+}
+
+.compliance-list li {
+    padding: 12px 20px 12px 35px;
+    position: relative;
+    background: #f9f8f7;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.compliance-list li:before {
+    content: '✓';
+    position: absolute;
+    left: 15px;
+    color: #ce9233;
+    font-weight: bold;
+}
+
+/* Service Hero */
+.service-hero {
+    margin-bottom: 50px;
+}
+
+.service-hero h2 {
+    margin: 30px 0 20px;
+}
+
+.text-block {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Section Headings */
+.service-details h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #181614;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.service-details h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #ce9233;
+}
