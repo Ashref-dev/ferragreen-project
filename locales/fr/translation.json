@@ -4,6 +4,9 @@
     "french": "Français",
     "arabic": "Arabe"
   },
+  "about": {
+    "title": "À propos de nous"
+  },
   "button": {
     "plus" : "En savoir plus"
   },
@@ -198,4 +201,5 @@
             "content3": "Le recyclage aide à réduire la pollution et à diminuer l'empreinte carbone de l'élimination des déchets. En réutilisant les matériaux, nous pouvons avoir un impact positif sur l'environnement, un article recyclé à la fois.",
             "content33":"Réduire notre empreinte environnementale grâce au recyclage est un moyen puissant de protéger la planète. En réutilisant des matériaux comme le plastique, le métal et le papier, nous réduisons considérablement le besoin d'extraction de ressources, qui nuit souvent aux écosystèmes et à la biodiversité. Le recyclage consomme également moins d'énergie que la production de nouveaux matériaux à partir de ressources brutes, ce qui réduit directement les émissions de gaz à effet de serre et aide à lutter contre le changement climatique. En outre, le recyclage limite les déchets dans les décharges, réduisant la pollution des sols et de l'eau. Ce geste simple favorise la durabilité, diminue la pollution et conserve les précieuses ressources de notre planète pour les générations futures."
         }
+
 }
